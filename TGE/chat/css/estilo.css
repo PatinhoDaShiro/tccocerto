@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+html{
+	overflow-y: hidden;
+}
+.chat{
+	width: 100vw;
+	
+	background-color: #2a2a2b;
+}
+.formulariomsg{	
+	display: flex;
+	padding: 1vh 2vw 0 2vw;
+	background-color: #2D2D2D;
+	
+}
+.mensagem{	
+	width: 100%;
+	overflow: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	
+}
+#texto{
+	
+	
+	margin-top:12px;
+
+	width: 100vw;
+	background-color: #2D2D2D;
+}
+.botaoEnviar{
+	
+	transition: 0.5s;
+	margin-left: 4px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.botaoEnviar:hover{
+	transition: 0.5s;
+	background-color: #96bd6f;
+}
+.textomensagem{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	color: rgb(194, 195, 197);
+	border-radius: 10px;
+
+	padding: 3px;
+	
+	margin-bottom: 1vh;
+}
+.fundo{
+	background-color: #2a2a2b;
+	height: 92vh;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+.nome{
+	margin-left: 2vw;
+	color: white;
+	font-size: 1rem;
+}#msg{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #585858;
+	color: white;
+}
+
+.fundo::-webkit-scrollbar {
+	width: 12px;               /* width of the entire scrollbar */
+  }
+  
+ .fundo::-webkit-scrollbar-track {
+	background: rgb(77, 77, 77);        /* color of the tracking area */
+  }
+  
+ .fundo::-webkit-scrollbar-thumb {
+	background-color: rgb(24, 24, 24);    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	border: 3px solid rgb(54, 54, 53);  /* creates padding around scroll thumb */
+  }
+  @media screen and (max-width:930px) and (min-width: 800px){
+	.chat{
+		height: 88vh;
+		font-size: 2rem;
+	}
+	.nome{
+		font-size: 2rem;
+	}
+	.formulariomsg{		
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 95vh;
+	}
+	#msg{
+		font-size: 2rem;
+		padding-bottom: 55px;
+	}
+	
+}
+
+  @media screen and (max-width:540px) and (min-width: 400px){
+	.chat{
+		height: 88vh;
+	}
+	.formulariomsg{		
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 94vh;
+	}
+}
+@media screen and (max-width:600px) and (min-width: 500px){
+	.chat{
+		height: 88vh;
+	}
+	.formulariomsg{		
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 91vh;
+	}
+}
+@media screen and (max-width: 550px) and (min-width: 550px){
+	.chat{
+		height: 90vh;
+	}
+	.formulariomsg{	
+		padding: 0 2vw 0 2vw;	
+	}
+	.fundo{
+		height: 91.7vh;
+	}
+}
+@media screen and (max-width: 380px) and (min-width: 200px){
+	.fundo{
+		height: 89.5vh;
+	}
+	.chat{
+		height: 90vh;
+	}
+	.formulariomsg{	
+
+		padding: 0 2vw 0 2vw;	
+	}
+}
